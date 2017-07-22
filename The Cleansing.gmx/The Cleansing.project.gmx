@@ -12,6 +12,20 @@
       <sprite>sprites\spr_wall_vertical</sprite>
       <sprite>sprites\spr_wall_joint</sprite>
     </sprites>
+    <sprites name="surveillance">
+      <sprites name="cameras">
+        <sprite>sprites\spr_camera_left</sprite>
+        <sprite>sprites\spr_camera_right</sprite>
+        <sprite>sprites\spr_camera_up</sprite>
+        <sprite>sprites\spr_camera_down</sprite>
+        <sprites name="handles">
+          <sprite>sprites\spr_handle_left</sprite>
+          <sprite>sprites\spr_handle_right</sprite>
+          <sprite>sprites\spr_handle_up</sprite>
+          <sprite>sprites\spr_handle_down</sprite>
+        </sprites>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,6 +35,20 @@
       <object>objects\obj_wall_horizontal</object>
       <object>objects\obj_wall_vertical</object>
       <object>objects\obj_wall_joint</object>
+    </objects>
+    <objects name="surveillance">
+      <objects name="cameras">
+        <object>objects\obj_camera_left</object>
+        <object>objects\obj_camera_right</object>
+        <object>objects\obj_camera_up</object>
+        <object>objects\obj_camera_down</object>
+        <objects name="handles">
+          <object>objects\obj_handle_left</object>
+          <object>objects\obj_handle_right</object>
+          <object>objects\obj_handle_up</object>
+          <object>objects\obj_handle_down</object>
+        </objects>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">

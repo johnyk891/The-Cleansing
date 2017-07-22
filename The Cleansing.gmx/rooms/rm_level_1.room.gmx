@@ -3,7 +3,7 @@
   <caption></caption>
   <width>2048</width>
   <height>1536</height>
-  <vsnap>32</vsnap>
+  <vsnap>8</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
@@ -88,6 +88,14 @@
     <instance objName="obj_wall_joint" x="576" y="864" name="inst_006C17B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_joint" x="928" y="640" name="inst_8E4FCD2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall_joint" x="928" y="864" name="inst_E2F69D6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camera_left" x="896" y="736" name="inst_078241B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camera_right" x="608" y="736" name="inst_7E24EB53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_handle_left" x="904" y="736" name="inst_A45C819C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_handle_right" x="600" y="736" name="inst_54BCF012" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camera_down" x="736" y="672" name="inst_29564893" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_handle_down" x="736" y="664" name="inst_113C2D04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_camera_up" x="736" y="832" name="inst_529EDD7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_handle_up" x="736" y="840" name="inst_5555683A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
