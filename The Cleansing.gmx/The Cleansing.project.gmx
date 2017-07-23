@@ -8,9 +8,9 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprites name="walls">
+      <sprite>sprites\spr_wall_joint</sprite>
       <sprite>sprites\spr_wall_horizontal</sprite>
       <sprite>sprites\spr_wall_vertical</sprite>
-      <sprite>sprites\spr_wall_joint</sprite>
     </sprites>
     <sprites name="surveillance">
       <sprites name="cameras">
@@ -26,6 +26,23 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprites name="ground">
+      <sprite>sprites\spr_ground_wood</sprite>
+      <sprite>sprites\spr_ground_tile_white</sprite>
+      <sprite>sprites\spr_ground_tile_black</sprite>
+    </sprites>
+    <sprites name="props">
+      <sprites name="couches">
+        <sprites name="red">
+          <sprite>sprites\spr_couch_red_down</sprite>
+          <sprite>sprites\spr_couch_red_up</sprite>
+        </sprites>
+        <sprites name="green">
+          <sprite>sprites\spr_couch_green_down</sprite>
+          <sprite>sprites\spr_couch_green_up</sprite>
+        </sprites>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -35,9 +52,9 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="walls">
+      <object>objects\obj_wall_joint</object>
       <object>objects\obj_wall_horizontal</object>
       <object>objects\obj_wall_vertical</object>
-      <object>objects\obj_wall_joint</object>
     </objects>
     <objects name="surveillance">
       <objects name="cameras">
@@ -50,6 +67,23 @@
           <object>objects\obj_handle_right</object>
           <object>objects\obj_handle_up</object>
           <object>objects\obj_handle_down</object>
+        </objects>
+      </objects>
+    </objects>
+    <objects name="ground">
+      <object>objects\obj_ground_wood</object>
+      <object>objects\obj_ground_tile_white</object>
+      <object>objects\obj_ground_tile_black</object>
+    </objects>
+    <objects name="props">
+      <objects name="couches">
+        <objects name="red">
+          <object>objects\obj_couch_red_down</object>
+          <object>objects\obj_couch_red_up</object>
+        </objects>
+        <objects name="green">
+          <object>objects\obj_couch_greed_down</object>
+          <object>objects\obj_couch_green_up</object>
         </objects>
       </objects>
     </objects>
