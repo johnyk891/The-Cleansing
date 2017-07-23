@@ -55,7 +55,9 @@ var xDir,yDir;
 xDir = keyboard_check(ord('D')) - keyboard_check(ord('A'));
 yDir = keyboard_check(ord('S')) - keyboard_check(ord('W'));
 
+if(!place_meeting(x+xDir,y,obj_wall_joint))
 x+=xDir;
+if(!place_meeting(x,y+yDir,obj_wall_joint))
 y+=yDir;
 </string>
           </argument>
